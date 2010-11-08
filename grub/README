@@ -1,0 +1,7 @@
+These binary files are images taken from GNU grub 0.95. I compiled
+grub using some special sauce to get a boot menu that mentions OS 134,
+but generic GRUB stage1 and stage2 from your favorite Linux distro
+will do just as well. The source to GRUB is available from
+http://www.gnu.org/software/grub .
+
+

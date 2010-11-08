@@ -1,0 +1,19 @@
+To boot the kernel, run the "./run" script.
+
+
+This runs qemu with "boot" in floppy drive fd0 and "root" in floppy
+drive fd1.
+
+You get a GRUB screen, in which you specify the location of the
+kernel:
+
+
+>  kernel (fd1)/kernel
+
+
+and then you tell it to boot:
+
+
+>  boot
+
+

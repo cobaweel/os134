@@ -1,0 +1,4 @@
+# For booting OS 134
+title  OS 134
+root   (fd1)
+kernel /kernel

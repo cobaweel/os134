@@ -1,0 +1,23 @@
+
+**********************************************************************
+                         OS 134
+**********************************************************************
+
+In bullet points, for the impatient:
+
+   o This is OS 134, a simple kernel for i386 and up PCs
+
+   o To compile, you need GNU gcc and GNU binutils. You also need root
+     access on a Linux machine.
+
+   o To run it, you need the qemu PC emulator.
+
+   o We use GNU GRUB, but it is included for you.
+
+OS 134 was (is being) written in 2005 by 
+
+  Jaap Weel, Ting Liao, Benjamin Stein
+
+If you, for whatever reason, have found a use for this piece of
+software, we would very much appreciate if you could let us know at
+"os134 at ugcs dot caltech dot edu".

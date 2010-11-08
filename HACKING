@@ -1,0 +1,27 @@
+Here we describe what the various files do. More internals
+documentation is found throughout the code in comments, as well as in
+the doc/ directory.
+
+asm.S           Boot stub. Very short thanks to GRUB.
+multiboot.h     Contains definitions related to GNU Multiboot.
+menu.lst        The GRUB menu you see at boot.
+layout.ld       The linker map. Tells ld how to lay out the kernel.
+kernel.c        Contains main().
+run             Runs the kernel in qemu.
+std.h           To be included by every .c file. Contains the bounded arrays.
+i386.S          Assembly stubs for things C cannot do, to be called from C.
+malloc.c        Allocates memory.
+segments.c      Sets up the GDT (segment table).
+interrupt.c     Sets up the IDT (interrupt table).
+handlers.S      Assembly stubs for the interrupt handlers.
+util.c          Contains some utility functions. Temporary????
+
+Special, non-interrupt-driven driver:
+
+vga.c           Talks to VGA in text mode.
+term.c          "Terminal" (stateful) layer on top of vga.c
+
+Interrupt-driven drivers:
+
+exceptions.c    Handle i386 exceptions.
+

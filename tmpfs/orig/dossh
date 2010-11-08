@@ -1,0 +1,4 @@
+#! /bin/sh
+#./msdos /dev/fd0
+~/ledit ./msdos floppy.img.orig
+

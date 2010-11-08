@@ -1,0 +1,40 @@
+**********************************************************************
+      Prerequisites
+**********************************************************************
+
+You need GNU gcc, GNU binutils and qemu. All three are free software
+and readily available for most platforms.
+
+You need a PC compatible machine. We have not tested the build process
+on e.g. the Macintosh.
+
+
+
+**********************************************************************
+    Installation instructions
+**********************************************************************
+
+Step 1.
+
+Run 
+     su
+     make
+
+or
+     sudo make
+
+Step 2.
+
+Wait (it's just a few seconds on my machine).
+
+
+Step 3.
+
+Run
+        ./run
+
+Step 4.
+
+You should see a qemu window pop up, with a GRUB boot menu in which
+you can select OS 134. There's not much to see yet, but it (kinda)
+works.

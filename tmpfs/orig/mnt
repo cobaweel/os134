@@ -1,0 +1,3 @@
+#! /bin/sh
+dd if=floppy.img.orig of=/dev/fd0 bs=18k
+

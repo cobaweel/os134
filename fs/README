@@ -1,0 +1,5 @@
+For the time being the filesystem is a stand-alone *NIX program. It is
+not compiled together with the kernel binary, and serves for testing
+purposes. Once it works, it will be integrated into the kernel.
+
+

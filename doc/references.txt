@@ -1,0 +1,50 @@
+  Low-level OS Stuff
+
+
+A well-done, detailed low-level tutorial
+
+     * http://warmaster.ath.cx/bkerndev/
+
+General FAQs and repositories
+
+     * http://inglorion.net/documents/tutorials/x86ostut/
+       My friend Bob's x86 OS tutorial.
+     * http://www.mega-tokyo.com/osfaq2/
+       The OS FAQ 2
+     * http://www.osdever.net/
+       Bona Fide OS Development
+          * Tutorials
+          * Documents
+     * http://visopsys.org/osdev/
+       Visopsys. This little page is the beginning of a collection of
+       source
+       code, information, and links related to general Operating
+       Systems'
+       Development on the Web.
+     * http://my.execpc.com/~geezer/osd/
+       "Write your own OS."
+     * http://swartzbaugh.net/
+       The Minix overdocumentation project.
+
+Some other documents
+
+     * http://www.gnu.org/software/grub/manual/multiboot/multiboot.html
+       The GNU multiboot spec.
+
+Printed documents
+
+     * Operating Systems Design and Implementation, 2nd ed.        
+       Andy Tanenbaum & Al Woodhull, Prentice Hall
+
+       (I have a library copy of this book in my room, and I have
+       ordered another copy for myself which should be arriving
+       shortly)
+
+     * The minix source code, which is printed in the aforementioned
+       book, but also available in digital form (duh...)
+
+     * The Intel Architecture manual. There is a printed copy in my
+       room, and there is also one on-line at
+       http://www.cs.caltech.edu/courses/cs24/resources.html
+
+

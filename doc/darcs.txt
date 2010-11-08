@@ -1,0 +1,49 @@
+How to use passwordless SSH:
+
+exec ssh-agent $SHELL
+ssh-add
+
+Now you can use SSH to repo@zapata.dabney without typing your passwd
+all the time.
+
+
+How to use DARCS:
+
+to grab a new copy of the repository do this
+
+--------------------------
+mkdir os134
+cd os134
+darcs initialize
+darcs pull repo@zapata.dabney.caltech.edu:os134
+---------------------------
+
+
+to update your version (eqvt. of CVS update):
+
+darcs pull
+
+
+to record your patches in the local repository:
+
+
+darcs record
+
+
+and to upload them to the central repository
+
+
+darcs push
+
+
+to add new files:
+
+darcs add
+
+
+there's also
+
+darcs move
+darcs remove
+
+
